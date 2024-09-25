@@ -6,4 +6,4 @@
 __version__ = __version__ = "1.0.0"
 
 
-from .worker import Worker
+from .worker import Worker, WorkerSignals

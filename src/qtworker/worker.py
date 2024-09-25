@@ -6,13 +6,13 @@
 import sys
 import traceback
 
-from PyQt5.QtCore import QObject, QRunnable, pyqtSignal
+from qtpy.QtCore import QObject, QRunnable, Signal
 
 class WorkerSignals(QObject):
-    started = pyqtSignal()
-    finished = pyqtSignal()
-    error = pyqtSignal(tuple)
-    result = pyqtSignal(object)
+    started = Signal()
+    finished = Signal()
+    error = Signal(tuple)
+    result = Signal(object)
 
 
 class Worker(QRunnable):
