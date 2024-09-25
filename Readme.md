@@ -18,3 +18,17 @@ self.pool.start(worker)
 ```
 
 > Todo: with full context
+
+
+
+## setup
+
+install the package via pip:
+```
+pip install qtworker
+```
+
+The full documentation can be found under 
+[configwidgets documentation](https://qtworker.readthedocs.io/en/latest/)
+The source code can be found under
+[configwidgets repository](https://github.com/kolja-wagner/qtworker)

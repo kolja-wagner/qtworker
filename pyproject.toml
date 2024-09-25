@@ -27,7 +27,7 @@ doc = [
     ]
     
 [project.urls]
-#Documentation = "https://configwidgets.readthedocs.io/en/latest/"
+Documentation = "https://qtworker.readthedocs.io/en/latest/"
 Repository = "https://github.com/kolja-wagner/qtworker"
 
 
