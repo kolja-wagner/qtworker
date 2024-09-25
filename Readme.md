@@ -29,6 +29,6 @@ pip install qtworker
 ```
 
 The full documentation can be found under 
-[configwidgets documentation](https://qtworker.readthedocs.io/en/latest/)
+[qtworker documentation](https://qtworker.readthedocs.io/en/latest/)
 The source code can be found under
-[configwidgets repository](https://github.com/kolja-wagner/qtworker)
+[qtworker repository](https://github.com/kolja-wagner/qtworker)
