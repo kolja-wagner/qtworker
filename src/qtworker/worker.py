@@ -27,7 +27,7 @@ class Worker(QRunnable):
         self.signals.started.emit()
         try:
             result = self.func(*self.args, **self.kwargs)
-        except:
+        except Exception:
             # traceback.print_exc()
             exctype, value = sys.exc_info()[:2]
             self.signals.error.emit((exctype, value, traceback.format_exc()))
